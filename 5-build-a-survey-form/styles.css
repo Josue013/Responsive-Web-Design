@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(115deg, rgba(31, 152, 182 , 0.8), rgba(106, 226, 255, 0.7)),url(https://hermeticline.es/wp-content/uploads/2017/07/ventana-aluminio-sabadell-1.jpg);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-position: center;
+
+
+}
+
+header{
+    padding-top: 2rem;
+    margin: 1.875rem;
+}
+
+
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+h1 {
+    margin: 1em auto;
+    font-weight: 400;
+    display: block;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+p{
+    font-size: 1.125rem;
+    
+}
+
+h1, p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    
+}
+
+
+form {
+    background: rgba(11, 47, 55 , 0.8);
+    padding: 2.5rem;
+    border-radius: 0.25rem;
+    max-width: 720px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,textarea,select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.input-radio, .input-checkbox {
+    width: 15px;
+    margin: 0 0.5em 0.25em 0.5em;
+    vertical-align: middle;
+    display: inline-block;
+    min-height: 1.25rem;
+    min-width: 1.25rem; 
+}
+
+.input-textarea{
+    height: 150px;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid black; 
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #292947;
+    color: white;
+}
