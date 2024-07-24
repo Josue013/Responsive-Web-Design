@@ -1,49 +1,50 @@
 .canvas {
-    width: 500px;
-    height: 600px;
-    background-color: #4d0f00;
-    overflow: hidden;
-    filter: blur(2px);
-  }
-  
-  .frame {
-    border: 50px solid black;
-    width: 500px;
-    padding: 50px;
-    margin: 20px auto;
-  }
-  
-  .one {
-    width: 425px;
-    height: 150px;
-    background-color: #efb762;
-    margin: 20px auto;
-    box-shadow: 0 0 3px 3px #efb762;
-    border-radius: 9px;
-    transform: rotate(-0.6deg);
-  }
-  
-  .two {
-    width: 475px;
-    height: 200px;
-    background-color: #8f0401;
-    margin: 0 auto 20px;
-    box-shadow: 0 0 3px 3px #8f0401;
-    border-radius: 8px 10px;
-    transform: rotate(0.4deg);
-  }
-  
-  .one, .two {
-    filter: blur(1px);
-  }
-  
-  .three {
-    width: 91%;
-    height: 28%;
-    background-color: #b20403;
-    margin: auto;
-    filter: blur(2px);
-    box-shadow: 0 0 5px 5px #b20403;
-    border-radius: 30px 25px 60px 12px;
-    transform: rotate(-0.2deg);
-  }
+  width: 500px; /* Ancho del contenedor canvas */
+  height: 600px; /* Altura del contenedor canvas */
+  background-color: #4d0f00; /* Color de fondo del contenedor canvas */
+  overflow: hidden; /* Oculta el contenido que se desborda del contenedor */
+  filter: blur(2px); /* Aplica un desenfoque de 2 píxeles al contenedor */
+}
+
+.frame {
+  border: 50px solid black; /* Borde negro de 50 píxeles de grosor */
+  width: 500px; /* Ancho del contenedor frame */
+  padding: 50px; /* Espaciado interno de 50 píxeles */
+  margin: 20px auto; /* Margen superior e inferior de 20 píxeles, centrado horizontalmente */
+}
+
+.one {
+  width: 425px; /* Ancho del elemento one */
+  height: 150px; /* Altura del elemento one */
+  background-color: #efb762; /* Color de fondo del elemento one */
+  margin: 20px auto; /* Margen superior e inferior de 20 píxeles, centrado horizontalmente */
+  box-shadow: 0 0 3px 3px #efb762; /* Sombra alrededor del elemento con color igual al fondo */
+  border-radius: 9px; /* Bordes redondeados con un radio de 9 píxeles */
+  transform: rotate(-0.6deg); /* Rotación del elemento en -0.6 grados */
+}
+
+.two {
+  width: 475px; /* Ancho del elemento two */
+  height: 200px; /* Altura del elemento two */
+  background-color: #8f0401; /* Color de fondo del elemento two */
+  margin: 0 auto 20px; /* Sin margen superior, centrado horizontalmente, margen inferior de 20 píxeles */
+  box-shadow: 0 0 3px 3px #8f0401; /* Sombra alrededor del elemento con color igual al fondo */
+  border-radius: 8px 10px; /* Bordes redondeados con radios de 8 y 10 píxeles */
+  transform: rotate(0.4deg); /* Rotación del elemento en 0.4 grados */
+}
+
+.one, .two {
+  filter: blur(1px); /* Aplica un desenfoque de 1 píxel a los elementos one y two */
+}
+
+.three {
+  width: 91%; /* Ancho del 91% del contenedor padre */
+  height: 28%; /* Altura del 28% del contenedor padre */
+  background-color: #b20403; /* Color de fondo del elemento three */
+  margin: auto; /* Centrado horizontal y vertical */
+  filter: blur(2px); /* Aplica un desenfoque de 2 píxeles al elemento */
+  box-shadow: 0 0 5px 5px #b20403; /* Sombra alrededor del elemento con color igual al fondo */
+  border-radius: 30px 25px 60px 12px; /* Bordes redondeados con diferentes radios */
+  transform: rotate(-0.2deg); /* Rotación del elemento en -0.2 grados */
+}
+

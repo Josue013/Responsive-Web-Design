@@ -1,102 +1,123 @@
+/* Aplica el modelo de caja de borde a todos los elementos */
 * {
     box-sizing: border-box;
 }
 
+/* Define el tamaño de fuente base para el documento HTML */
 html {
     font-size: 16px;
 }
 
+/* Establece la fuente principal para el cuerpo del documento */
 body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Estilo para elementos con la clase .label */
 .label {
-    border: 2px solid black;
-    width: 270px;
-    margin: 20px auto;
-    padding: 0 7px;
+    border: 2px solid black; /* Borde negro de 2px */
+    width: 270px; /* Ancho fijo de 270px */
+    margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+    padding: 0 7px; /* Relleno horizontal de 7px */
 }
 
+/* Estilo para el h1 dentro del header */
 header h1 {
-    text-align: center;
-    margin: -4px 0;
-    letter-spacing: 0.15px;
+    text-align: center; /* Centra el texto */
+    margin: -4px 0; /* Margen superior negativo de -4px */
+    letter-spacing: 0.15px; /* Espaciado entre letras */
 }
 
+/* Estilo para todos los párrafos */
 p {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
+    margin: 0; /* Sin margen */
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: space-between; /* Espacio entre los elementos hijos */
 }
 
+/* Estilo para elementos con la clase .divider */
 .divider {
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
+    border-bottom: 1px solid #888989; /* Línea inferior gris */
+    margin: 2px 0; /* Margen vertical de 2px */
 }
 
+/* Estilo para elementos con la clase .bold */
 .bold {
-    font-weight: 800;
+    font-weight: 800; /* Fuente en negrita */
 }
 
+/* Estilo para elementos con la clase .large */
 .large {
-    height: 10px;
+    height: 10px; /* Altura de 10px */
 }
 
+/* Estilo compartido para .large y .medium */
 .large,
 .medium {
-    background-color: black;
-    border: 0;
+    background-color: black; /* Fondo negro */
+    border: 0; /* Sin borde */
 }
 
+/* Estilo para elementos con la clase .medium */
 .medium {
-    height: 5px;
+    height: 5px; /* Altura de 5px */
 }
 
+/* Estilo para elementos con la clase .small-text */
 .small-text {
-    font-size: 0.85rem;
+    font-size: 0.85rem; /* Tamaño de fuente reducido */
 }
 
+/* Estilo para elementos con la clase .calories-info */
 .calories-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: space-between; /* Espacio entre los elementos hijos */
+    align-items: flex-end; /* Alinea los elementos hijos al final */
 }
 
+/* Estilo para h2 dentro de .calories-info */
 .calories-info h2 {
-    margin: 0;
+    margin: 0; /* Sin margen */
 }
 
+/* Estilo para párrafos dentro de .left-container */
 .left-container p {
-    margin: -5px -2px;
-    font-size: 2em;
-    font-weight: 700;
+    margin: -5px -2px; /* Márgenes negativos */
+    font-size: 2em; /* Tamaño de fuente grande */
+    font-weight: 700; /* Fuente en negrita */
 }
 
+/* Estilo para span dentro de .calories-info */
 .calories-info span {
-    margin: -7px -2px;
-    font-size: 2.4em;
-    font-weight: 700;
+    margin: -7px -2px; /* Márgenes negativos */
+    font-size: 2.4em; /* Tamaño de fuente muy grande */
+    font-weight: 700; /* Fuente en negrita */
 }
 
+/* Estilo para elementos con la clase .right */
 .right {
-    justify-content: flex-end;
+    justify-content: flex-end; /* Alinea los elementos hijos al final */
 }
 
+/* Estilo para elementos con la clase .indent */
 .indent {
-    margin-left: 1em;
+    margin-left: 1em; /* Margen izquierdo de 1em */
 }
 
+/* Estilo para elementos con la clase .double-indent */
 .double-indent {
-    margin-left: 2em;
+    margin-left: 2em; /* Margen izquierdo de 2em */
 }
 
+/* Estilo para párrafos dentro de .daily-value que no tienen la clase .no-divider */
 .daily-value p:not(.no-divider) {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid #888989; /* Línea inferior gris */
 }
 
+/* Estilo para elementos con la clase .note */
 .note {
-    font-size: 0.6rem;
-    margin: 5px 0;
-    padding: 0 8px;
-    text-indent: -8px;
+    font-size: 0.6rem; /* Tamaño de fuente muy pequeño */
+    margin: 5px 0; /* Márgenes verticales de 5px */
+    padding: 0 8px; /* Relleno horizontal de 8px */
+    text-indent: -8px; /* Sangría negativa de 8px */
 }

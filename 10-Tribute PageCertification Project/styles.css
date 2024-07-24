@@ -1,66 +1,62 @@
 body {
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    background-color: #d1cbcb;
-    color: #333; 
-    margin: 0;
-    text-align: center;
+    font-family: 'Arial', sans-serif; /* Establece la fuente del texto a Arial, con sans-serif como respaldo. */
+    font-size: 16px; /* Define el tamaño de la fuente a 16 píxeles. */
+    background-color: #d1cbcb; /* Establece el color de fondo del cuerpo a un tono gris claro. */
+    color: #333; /* Define el color del texto a un gris oscuro. */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo. */
+    text-align: center; /* Centra el texto horizontalmente. */
 }
 
 #main {
-    background-color: #f0f0f0;
-    margin: 0 auto;
-    padding: 20px 0px 0px 0px;
-    max-width: 800px;
+    background-color: #f0f0f0; /* Establece el color de fondo del elemento con id "main" a un gris muy claro. */
+    margin: 0 auto; /* Centra el elemento horizontalmente con márgenes automáticos. */
+    padding: 20px 0px 0px 0px; /* Añade un relleno de 20 píxeles en la parte superior. */
+    max-width: 800px; /* Limita el ancho máximo del elemento a 800 píxeles. */
 }
+
 #title {
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #999191;
-    padding: 10px;
+    font-size: 2em; /* Establece el tamaño de la fuente al doble del tamaño base. */
+    display: flex; /* Aplica un modelo de caja flexible al elemento. */
+    justify-content: center; /* Centra el contenido horizontalmente dentro del contenedor flexible. */
+    align-items: center; /* Centra el contenido verticalmente dentro del contenedor flexible. */
+    background-color: #999191; /* Establece el color de fondo a un tono gris oscuro. */
+    padding: 10px; /* Añade un relleno de 10 píxeles alrededor del contenido. */
 }
 
 #image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-
+    max-width: 100%; /* Limita el ancho máximo de la imagen al 100% del contenedor padre. */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción de la imagen. */
+    display: block; /* Hace que la imagen se comporte como un elemento de bloque. */
+    margin: 0 auto; /* Centra la imagen horizontalmente con márgenes automáticos. */
 }
 
 #img-div {
-    background-color: #f0f0f0;
-    padding: 20px;
-
+    background-color: #f0f0f0; /* Establece el color de fondo del elemento con id "img-div" a un gris muy claro. */
+    padding: 20px; /* Añade un relleno de 20 píxeles alrededor del contenido. */
 }
 
 #img-caption {
-    font-size: 1.5em;
-    padding-top: 40px;
+    font-size: 1.5em; /* Establece el tamaño de la fuente a 1.5 veces el tamaño base. */
+    padding-top: 40px; /* Añade un relleno de 40 píxeles en la parte superior. */
 }
 
 #headline {
-    font-size: 1em;
-    text-align: center;
-    padding: 20px;
+    font-size: 1em; /* Establece el tamaño de la fuente al tamaño base. */
+    text-align: center; /* Centra el texto horizontalmente. */
+    padding: 20px; /* Añade un relleno de 20 píxeles alrededor del contenido. */
 }
 
 ul {
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 5px 20px; /* Añade un relleno de 5 píxeles en la parte superior e inferior, y 20 píxeles en los lados. */
 }
 
 li {
-    list-style-type: none;
-    padding: 10px;
-    text-align: justify;
-    
+    list-style-type: none; /* Elimina los puntos de lista predeterminados. */
+    padding: 10px; /* Añade un relleno de 10 píxeles alrededor del contenido. */
+    text-align: justify; /* Justifica el texto, distribuyendo el espacio entre las palabras. */
 }
 
-
-
 #tribute-info {
-    padding: 20px;
-    text-align: left;
+    padding: 20px; /* Añade un relleno de 20 píxeles alrededor del contenido. */
+    text-align: left; /* Alinea el texto a la izquierda. */
 }

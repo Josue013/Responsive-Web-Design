@@ -1,186 +1,186 @@
 @media (prefers-reduced-motion: no-preference) {
     * {
-        scroll-behavior: smooth;
+        scroll-behavior: smooth; /* Aplica un desplazamiento suave a todos los elementos si el usuario no prefiere reducir el movimiento. */
     }
 }
 
 body {
-    background: #f5f6f7;
-    color: #1b1b32;
-    font-family: Helvetica;
-    margin: 0;
+    background: #f5f6f7; /* Establece el color de fondo del cuerpo a un gris claro. */
+    color: #1b1b32; /* Define el color del texto a un tono oscuro. */
+    font-family: Helvetica; /* Establece la fuente del texto a Helvetica. */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo. */
 }
 
 header {
-    width: 100%;
-    height: 50px;
-    background-color: #1b1b32;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
+    width: 100%; /* Establece el ancho del encabezado al 100% del contenedor padre. */
+    height: 50px; /* Define la altura del encabezado a 50 píxeles. */
+    background-color: #1b1b32; /* Establece el color de fondo del encabezado a un tono oscuro. */
+    display: flex; /* Aplica un modelo de caja flexible al encabezado. */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos hijos de manera equitativa. */
+    align-items: center; /* Centra los elementos hijos verticalmente. */
+    position: fixed; /* Fija el encabezado en la parte superior de la página. */
+    top: 0; /* Posiciona el encabezado en la parte superior de la página. */
 }
 
 #logo {
-    width: max(10rem, 18vw);
-    background-color: #0a0a23;
-    aspect-ratio: 35 / 4;
-    padding: 0.4rem;
+    width: max(10rem, 18vw); /* Establece el ancho del logo al máximo entre 10rem y 18vw. */
+    background-color: #0a0a23; /* Establece el color de fondo del logo a un tono muy oscuro. */
+    aspect-ratio: 35 / 4; /* Define la proporción del logo. */
+    padding: 0.4rem; /* Añade un relleno de 0.4rem alrededor del logo. */
 }
 
 h1 {
-    color: #f1be32;
-    font-size: min(5vw, 1.2em);
-    text-align: center;
+    color: #f1be32; /* Establece el color del texto a un tono amarillo. */
+    font-size: min(5vw, 1.2em); /* Define el tamaño de la fuente al mínimo entre 5vw y 1.2em. */
+    text-align: center; /* Centra el texto horizontalmente. */
 }
 
 nav {
-    width: 50%;
-    max-width: 300px;
-    height: 50px;
+    width: 50%; /* Establece el ancho del elemento nav al 50% del contenedor padre. */
+    max-width: 300px; /* Limita el ancho máximo del elemento nav a 300 píxeles. */
+    height: 50px; /* Define la altura del elemento nav a 50 píxeles. */
 }
 
 nav>ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
+    display: flex; /* Aplica un modelo de caja flexible a la lista desordenada. */
+    justify-content: space-evenly; /* Distribuye el espacio entre los elementos hijos de manera equitativa. */
+    flex-wrap: wrap; /* Permite que los elementos hijos se envuelvan en múltiples líneas. */
+    align-items: center; /* Centra los elementos hijos verticalmente. */
+    padding-inline-start: 0; /* Elimina el relleno inicial en línea. */
+    margin-block: 0; /* Elimina el margen en bloque. */
+    height: 100%; /* Establece la altura de la lista desordenada al 100% del contenedor padre. */
 }
 
 nav>ul>li {
-    color: #dfdfe2;
-    margin: 0 0.2rem;
-    padding: 0.2rem;
-    display: block;
+    color: #dfdfe2; /* Establece el color del texto a un tono claro. */
+    margin: 0 0.2rem; /* Añade un margen de 0.2rem a los lados. */
+    padding: 0.2rem; /* Añade un relleno de 0.2rem alrededor del contenido. */
+    display: block; /* Hace que el elemento se comporte como un bloque. */
 }
 
 nav>ul>li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
-    cursor: pointer;
+    background-color: #dfdfe2; /* Cambia el color de fondo a un tono claro cuando se pasa el ratón por encima. */
+    color: #1b1b32; /* Cambia el color del texto a un tono oscuro cuando se pasa el ratón por encima. */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa el ratón por encima. */
 }
 
 li>a {
-    color: inherit;
-    text-decoration: none;
+    color: inherit; /* Hereda el color del texto del elemento padre. */
+    text-decoration: none; /* Elimina la decoración del texto (subrayado). */
 }
 
 main {
-    padding-top: 50px;
+    padding-top: 50px; /* Añade un relleno de 50 píxeles en la parte superior. */
 }
 
 section {
-    width: 80%;
-    margin: 0 auto 10px auto;
-    max-width: 600px;
+    width: 80%; /* Establece el ancho de la sección al 80% del contenedor padre. */
+    margin: 0 auto 10px auto; /* Centra la sección horizontalmente y añade un margen inferior de 10 píxeles. */
+    max-width: 600px; /* Limita el ancho máximo de la sección a 600 píxeles. */
 }
 
 h1,
 h2 {
-    font-family: Verdana, Tahoma;
+    font-family: Verdana, Tahoma; /* Establece la fuente del texto a Verdana o Tahoma. */
 }
 
 h2 {
-    border-bottom: 4px solid #dfdfe2;
-    margin-top: 0px;
-    padding-top: 60px;
+    border-bottom: 4px solid #dfdfe2; /* Añade un borde inferior de 4 píxeles de color claro. */
+    margin-top: 0px; /* Elimina el margen superior. */
+    padding-top: 60px; /* Añade un relleno superior de 60 píxeles. */
 }
 
 .info {
-    padding: 10px 0 0 5px;
+    padding: 10px 0 0 5px; /* Añade un relleno de 10 píxeles en la parte superior y 5 píxeles a la izquierda. */
 }
 
 .formrow {
-    margin-top: 30px;
-    padding: 0px 15px;
+    margin-top: 30px; /* Añade un margen superior de 30 píxeles. */
+    padding: 0px 15px; /* Añade un relleno de 15 píxeles a los lados. */
 }
 
 input {
-    font-size: 16px;
+    font-size: 16px; /* Establece el tamaño de la fuente a 16 píxeles. */
 }
 
 .info label,
 .info input {
-    display: inline-block;
+    display: inline-block; /* Hace que los elementos se comporten como bloques en línea. */
 }
 
 .info input {
-    width: 50%;
-    text-align: left;
+    width: 50%; /* Establece el ancho del input al 50% del contenedor padre. */
+    text-align: left; /* Alinea el texto a la izquierda. */
 }
 
 .info label {
-    width: 10%;
-    min-width: 55px;
-    text-align: right;
+    width: 10%; /* Establece el ancho del label al 10% del contenedor padre. */
+    min-width: 55px; /* Establece un ancho mínimo de 55 píxeles. */
+    text-align: right; /* Alinea el texto a la derecha. */
 }
 
 .question-block {
-    text-align: left;
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-    padding-top: 5px;
+    text-align: left; /* Alinea el texto a la izquierda. */
+    display: block; /* Hace que el elemento se comporte como un bloque. */
+    width: 100%; /* Establece el ancho al 100% del contenedor padre. */
+    margin-top: 20px; /* Añade un margen superior de 20 píxeles. */
+    padding-top: 5px; /* Añade un relleno superior de 5 píxeles. */
 }
 
 p {
-    margin-top: 5px;
-    padding-left: 15px;
-    font-size: 20px;
+    margin-top: 5px; /* Añade un margen superior de 5 píxeles. */
+    padding-left: 15px; /* Añade un relleno izquierdo de 15 píxeles. */
+    font-size: 20px; /* Establece el tamaño de la fuente a 20 píxeles. */
 }
 
 p::before {
-    content: "Question #";
+    content: "Question #"; /* Añade el texto "Question #" antes del contenido del párrafo. */
 }
 
 .question {
-    border: none;
-    padding-bottom: 0;
+    border: none; /* Elimina el borde. */
+    padding-bottom: 0; /* Elimina el relleno inferior. */
 }
 
 .answers-list {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Elimina los puntos de lista predeterminados. */
+    padding: 0; /* Elimina el relleno. */
 }
 
 button {
-    display: block;
-    margin: 40px auto;
-    width: 40%;
-    padding: 15px;
-    font-size: 23px;
-    background: #d0d0d5;
-    border: 3px solid #3b3b4f;
+    display: block; /* Hace que el botón se comporte como un bloque. */
+    margin: 40px auto; /* Añade un margen de 40 píxeles en la parte superior e inferior y centra el botón horizontalmente. */
+    width: 40%; /* Establece el ancho del botón al 40% del contenedor padre. */
+    padding: 15px; /* Añade un relleno de 15 píxeles alrededor del contenido. */
+    font-size: 23px; /* Establece el tamaño de la fuente a 23 píxeles. */
+    background: #d0d0d5; /* Establece el color de fondo a un tono gris claro. */
+    border: 3px solid #3b3b4f; /* Añade un borde de 3 píxeles de color oscuro. */
 }
 
 footer {
-    background-color: #2a2a40;
-    display: flex;
-    justify-content: center;
+    background-color: #2a2a40; /* Establece el color de fondo del pie de página a un tono oscuro. */
+    display: flex; /* Aplica un modelo de caja flexible al pie de página. */
+    justify-content: center; /* Centra el contenido horizontalmente. */
 }
 
 footer,
 footer a {
-    color: #dfdfe2;
+    color: #dfdfe2; /* Establece el color del texto y de los enlaces a un tono claro. */
 }
 
 address {
-    text-align: center;
-    padding: 0.3em;
+    text-align: center; /* Centra el texto horizontalmente. */
+    padding: 0.3em; /* Añade un relleno de 0.3em alrededor del contenido. */
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+    position: absolute; /* Posiciona el elemento de manera absoluta. */
+    width: 1px; /* Establece el ancho a 1 píxel. */
+    height: 1px; /* Establece la altura a 1 píxel. */
+    padding: 0; /* Elimina el relleno. */
+    margin: -1px; /* Añade un margen negativo de 1 píxel. */
+    overflow: hidden; /* Oculta el contenido que desborda. */
+    clip: rect(0, 0, 0, 0); /* Recorta el contenido para que no sea visible. */
+    white-space: nowrap; /* Evita que el texto se envuelva. */
+    border: 0; /* Elimina el borde. */
 }
